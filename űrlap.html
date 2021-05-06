@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Űrlap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="urlap.css" title="normal"/>
+    <link rel="alternate stylesheet" type="text/css" href="urlapfelh.css" title="felhbarat"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <script src="styleswitcher.js"></script>
+</head>
+<body>
+    <nav class="ugras">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header class="menu">
+        <a href="index.html">Kezdőlap</a>
+        <a href="szimplaélvezet.html">Doom(2016)</a>
+        <a href="legjobbjatek.html">The Last of Us</a>
+        <a href="indiegyönygyszem.html">Ori and The Blind Forest</a>
+        <a href="űrlap.html" id="current">Űrlap</a>
+    </header>
+    <br>
+    <br>
+    <header class="menuketto">
+        <a id="nagy" href="#" onclick="setActiveStyleSheet('felhbarat'); return false;">Láthatóbb</a>
+        <a id="normal" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál</a>
+    </header>
+    <br>
+    <br>
+    <h1>Űrlap</h1>
+    <main id="tartalom">
+    <article class="felhasznalo">
+        <strong>Felhasználó név:</strong>
+        <input type="text" name="username"  maxlength="25">
+    </article>
+    <br>
+    <br>
+    <form action="mailto:vargabalazs2001@gmail.com" method="POST">
+    <div id="boxok">
+        <div class="row">
+            <div id="baloszlop" class="col-sm-12 col-md-6">
+                <p>Melyikkel játszottál már?</p>
+                <input type="checkbox" id="tloumar" name="martlou" value="checkboxegy">
+                <label for="tloumar"><span lang="en">The Last of Us</span></label><br>
+                <input type="checkbox" id="orimar" name="marori" value="checkboxegy">
+                <label for="orimar"><span lang="en">Ori and The Blind Forest</span></label><br>
+                <input type="checkbox" id="doommar" name="mardoom" value="checkboxegy">
+                <label for="doommar"><span lang="en">Doom</span>(2016)</label><br>
+                <input type="checkbox" id="nomar" name="marother" value="checkboxegy">
+                <label for="nomar">Egyikkel sem</label><br>
+                <br>
+                <br>
+                <br>
+                <p>Melyik játék leírásával értettél többnyire egyet?</p>
+                <input type="checkbox" id="tlouegyetert" name="mennyiretlou" value="checkboxketto">
+                <label for="tlouegyetert"><span lang="en">The Last of Us</span></label><br>
+                <input type="checkbox" id="oriegyetert" name="mennyireori" value="checkboxketto">
+                <label for="oriegyetert"><span lang="en">Ori and The Blind Forest</span></label><br>
+                <input type="checkbox" id="doomegyetert" name="mennyiredoom" value="checkboxketto">
+                <label for="doomegyetert"><span lang="en">Doom</span>(2016)</label><br>
+                <input type="checkbox" id="noegyetert" name="mennyireother" value="checkboxketto">
+                <label for="noegyetert">Egyikkel sem értettem egyet</label><br>
+                <input type="checkbox" id="ismer" name="nemismerem" value="checkboxketto">
+                <label for="ismer">Nem ismerem egyiket sem(<span lang="en">shame on you dude</span>)</label><br>
+                <br>
+                <br>
+            </div>
+            <div id="jobboszlop" class="col-sm-12 col-md-6">
+                <p>Mennyi pontot adnál a The Last of Us-nak?</p>
+                <input type="radio" id="tlouöt" name="tloupont" value="öt">
+                <label for="tlouöt">5/5</label><br>
+                <input type="radio" id="tlounégy" name="tloupont" value="négy">
+                <label for="tlounégy">4/5</label><br>
+                <input type="radio" id="tlouhárom" name="tloupont" value="három">
+                <label for="tlouhárom">3/5</label><br>
+                <input type="radio" id="tloukettő" name="tloupont" value="kettő">
+                <label for="tloukettő">2/5</label><br>
+                <input type="radio" id="tlouegy" name="tloupont" value="egy">
+                <label for="tlouegy">1/5</label><br>
+                <input type="radio" id="tlounem" name="tloupont" value="nulla">
+                <label for="tlounem">Nem ismerem</label><br>
+
+                <br>
+                <br>
+
+                <p>Mennyi pontot adnál az Ori and The Blind Forest-nek?</p>
+                <input type="radio" id="oriöt" name="oripont" value="öt">
+                <label for="oriöt">5/5</label><br>
+                <input type="radio" id="orinégy" name="oripont" value="négy">
+                <label for="orinégy">4/5</label><br>
+                <input type="radio" id="orihárom" name="oripont" value="három">
+                <label for="orihárom">3/5</label><br>
+                <input type="radio" id="orikettő" name="oripont" value="kettő">
+                <label for="orikettő">2/5</label><br>
+                <input type="radio" id="oriegy" name="oripont" value="egy">
+                <label for="oriegy">1/5</label><br>
+                <input type="radio" id="orinem" name="oripont" value="nulla">
+                <label for="orinem">Nem ismerem</label><br>
+
+                <br>
+                <br>
+
+                <p>Mennyi pontot adnál a Doom(2016)-nak?</p>
+                <input type="radio" id="doomöt" name="doompont" value="öt">
+                <label for="doomöt">5/5</label><br>
+                <input type="radio" id="doomnégy" name="doompont" value="négy">
+                <label for="doomnégy">4/5</label><br>
+                <input type="radio" id="doomhárom" name="doompont" value="három">
+                <label for="doomhárom">3/5</label><br>
+                <input type="radio" id="doomkettő" name="doompont" value="kettő">
+                <label for="doomkettő">2/5</label><br>
+                <input type="radio" id="doomegy" name="doompont" value="egy">
+                <label for="doomegy">1/5</label><br>
+                <input type="radio" id="doomnem" name="doompont" value="nulla">
+                <label for="doomnem">Nem ismerem</label><br>
+            </div>
+        </div>  
+    </div>   
+    <br>
+        <label class="areacim" for="textarea">Mivel értettél/nem értettél egyet?</label>
+        <textarea id="textarea" name="textarea" rows="10" cols="200">
+        </textarea>
+        <br>
+        <input class="resetgomb" type="reset" value="Reset">
+        <input class="submitgomb" type="submit" value="Submit">
+    </form>
+</main>
+</body>
+</html>

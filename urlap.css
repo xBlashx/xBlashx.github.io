@@ -1,0 +1,338 @@
+h1{
+    text-align: center;
+}
+
+.ugras a
+{
+    position:absolute;
+    left:-9999px;
+}
+
+.ugras a:focus
+{
+    position:static;
+    color:red;
+}
+
+.felhasznalo input{
+    width: 200px;
+}
+
+body{
+    text-align: justify;
+    background-color:rgb(8, 8, 8);
+    line-height: 1.8;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.menu{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:rgb(175, 184, 196);
+}
+.menu a{
+    padding: 4px 8px;
+    font-size: 1em;
+}
+.menu a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menu a:hover{
+    background-color: rgb(30, 182, 228);
+}
+.menu a:visited{
+    color: rgb(51, 11, 143)
+}
+
+#current{
+    background-color: rgb(70, 228, 30);
+}
+
+.menuketto{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:rgb(175, 184, 196);
+}
+.menuketto a{
+    padding: 4px 8px;
+    font-size: 1em;
+}
+.menuketto a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menuketto a:hover{
+    background-color: rgb(30, 182, 228);
+}
+
+
+#normal{
+    background-color: rgb(70, 228, 30);
+}
+
+#baloszlop{
+    margin-top: 10%;
+}
+
+#boxok{
+    text-align: left;
+    width: 70%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.areacim{
+    margin-left: 37px;
+}
+
+.resetgomb{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.submitgomb{
+    float: right;
+}
+
+@media only screen and (max-width: 1450px){
+    h1{
+        text-align: center;
+    }
+    
+    html{
+        background-color:rgb(8, 8, 8);
+        line-height: 1.8;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .ugras a{
+        color: red;
+    }
+    
+    .felhasznalo input{
+        width: 200px;
+    }
+    
+    body{
+        text-align: justify;
+        text-align: center;
+    }
+    
+    .menu{
+        overflow: hidden;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:rgb(175, 184, 196);
+    }
+    .menu a{
+        padding: 4px 8px;
+        font-size: 1em;
+    }
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: rgb(30, 182, 228);
+    }
+    
+    #current{
+        background-color: rgb(70, 228, 30);
+    }
+    
+    .menuketto{
+        overflow: hidden;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:rgb(175, 184, 196);
+    }
+    .menuketto a{
+        padding: 4px 8px;
+        font-size: 1em;
+    }
+    .menuketto a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menuketto a:hover{
+        background-color: rgb(30, 182, 228);
+    }
+    
+    #normal{
+        background-color: rgb(70, 228, 30);
+    }
+    
+    #boxok{
+        text-align: center;
+        width: 70%;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #textarea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .areacim{
+        margin-left: 20px;
+    }
+    
+    .resetgomb{
+        float: none;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .submitgomb{
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    h1{
+        text-align: center;
+    }
+    
+    html{
+        background-color:rgb(8, 8, 8);
+        line-height: 1.8;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .ugras a{
+        color: red;
+    }
+    
+    .felhasznalo input{
+        width: 200px;
+    }
+    
+    body{
+        text-align: justify;
+        text-align: center;
+    }
+    
+    .menu{
+        overflow: hidden;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:rgb(175, 184, 196);
+    }
+    .menu a{
+        padding: 4px 8px;
+        font-size: 1em;
+    }
+    .menu a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menu a:hover{
+        background-color: rgb(30, 182, 228);
+    }
+    
+    #current{
+        background-color: rgb(70, 228, 30);
+    }
+    
+    .menuketto{
+        overflow: hidden;
+        border-radius: 10px;
+        border: 1px solid black;
+        float: none;
+        background-color:rgb(175, 184, 196);
+    }
+    .menuketto a{
+        padding: 4px 8px;
+        font-size: 1em;
+    }
+    .menuketto a.active{
+        background-color: #f1ebd2;
+        color: black;
+    }
+    .menuketto a:hover{
+        background-color: rgb(30, 182, 228);
+    }
+    
+    #normal{
+        background-color: rgb(70, 228, 30);
+    }
+    
+    #boxok{
+        text-align: center;
+        width: 70%;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #textarea{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .areacim{
+        margin-left: 20px;
+    }
+    
+    .resetgomb{
+        float: none;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .submitgomb{
+        float: none;
+    }
+}
+
+@media print{
+    body{
+        margin:0;
+        color: black;
+        width: 90%;
+        line-height: 1.5;
+        text-align: justify;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #textarea{
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menuketto{
+        display: none;
+    }
+
+    a:after{content: "(" attr(href) ")";}
+}

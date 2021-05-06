@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang= "hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kezdőlap</title>
+    <link rel="stylesheet" type="text/css" href="index.css" title="normal"/>
+    <link rel="alternate stylesheet" type="text/css" href="felhasznalojavito.css" title="felhbarat"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <script src="styleswitcher.js"></script>
+</head>
+
+<body>
+  <nav class="ugras">
+    <a href="#tartalom">Ugrás a tartalomra</a>
+  </nav>
+  <header class="menu">
+    <a href="index.html" id="current">Kezdőlap</a>
+    <a href="szimplaélvezet.html">Doom(2016)</a>
+    <a href="legjobbjatek.html">The Last of Us</a>
+    <a href="indiegyönygyszem.html">Ori and The Blind Forest</a>
+    <a href="űrlap.html">Űrlap</a>
+  </header>
+  <br>
+  <br>
+  <header class="menuketto">
+    <a id="nagy" href="#" onclick="setActiveStyleSheet('felhbarat'); return false;">Láthatóbb</a>
+    <a id="normal" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál</a>
+  </header>
+  <br>
+    <h1>Kezdőlap</h1>
+    <main id="tartalom">
+    <section>
+    <h2>Kedvenc játékaim</h2>
+    <p>Manapság rengeteg játék és játéktípus van amik között szinte mindenki meg tudja találni a magának valót, csak úgy mint bármilyen más médiában(filmek, sorozatok, zene, stb...). Ez a szép benne, mindenkinek más stílus jön be, mást preferál, más köti le. Ezért nincs is olyan hogy legjobb játék mert ez is(csakúgy mint rengeteg más minden) szubjektív. Mindenkinek megvan egy saját "listája" azokról a játékokról amiket szeret de nem feltétlenül tud köztük tetszés szerinti sorrendet felállítani. Mondjuk nem is szükséges, mert nem fontos, hogy egy játék kedvenc-e vagy sem, csak annyi, hogy tetszik vagy nem. Viszont én úgy gondolom, hogy jó, ha képes vagy megállapítani egy adott médiumból a kedvencedet(kedvenceidet), mert ezek visszatükrözik valamennyire egy ember személyiségét.</p>
+    <p>Szerencsém volt kipróbálni már rengeteg játékot amik között több olyan is volt amit mosollyal az arcomon fejeztem be, de volt 3 ami különösen közel nőtt a szívemhez. Az a legszebb hogy mind a 3 teljesen más műfajjal büszkélkedhet, ezért sem lehet köztük rangsort felállítani, hiszen mindegyik más stílusú.</p>
+    <p>Szeretném ezekről a játékokról <span lang="en">spoiler</span> mentesen elmondani a véleményem, és hogy miért is kerültek a Top 3-ba.
+    Annyit szeretnék megjegyezni, hogy</p>
+    </section>
+    <ol>
+        <li>ez csak én nézetemet tükrözi, semmi sem egy tény megállapítás vagy hasonló</li>
+        <li>természetesen kijátszottam mind a 3 játék folytatását is amik mind (szinte minden tekintetben)fejlettebbek az elődöknél, de ez nem jelenti, hogy jobban is szeretem őket</li>
+    </ol>
+    <aside>
+      <p><strong>Gondolataitokat leírhatjátok az űrlapban.</strong></p>
+    </aside>
+    <details>
+    <summary><strong><i>A játékok kiadási évei, címei és a cégek akik csinálták. A linkekre kattintva megnyithatod a wikipédia oldalaikat.</i></strong></summary>
+    <div id="tablazat">
+        <table>
+            <caption><strong>Adatok</strong></caption>
+            <tr>
+              <th>Év</th>
+              <th>Játék</th>
+              <th>Cég</th>
+            </tr>
+            <tr>
+              <td>2013</td>
+              <td class="tloucella"><a href="https://en.wikipedia.org/wiki/The_Last_of_Us" target="_blank"><span lang="en">The Last of Us</span></a></td>
+              <td class="naughtycella"><a href="https://en.wikipedia.org/wiki/Naughty_Dog" target="_blank"><span lang="en">Naughty Dog</span></a></td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td class="oricella"><a href="https://en.wikipedia.org/wiki/Ori_and_the_Blind_Forest" target="_blank"><span lang="en">Ori and The Blind Forest</span></a></td>
+              <td class="mooncella"><a href="https://en.wikipedia.org/wiki/Moon_Studios" target="_blank"><span lang="en">Moon Studios</span></a></td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td class="doomcella"><a href="https://en.wikipedia.org/wiki/Doom_(2016_video_game)" target="_blank"><span lang="en">Doom</span></a></td>
+                <td class="bethesdacella"><a href="https://en.wikipedia.org/wiki/Bethesda_Softworks" target="_blank"><span lang="en">Bethesda Softworks</span></a></td>
+              </tr>
+          </table>
+    </div>
+  </details>
+  </main>
+  <footer>
+    <p>Készítette: Varga Balázs</p>
+    <p>Telefonszám: +36 30 320 7119</p>
+    <p>Email: crashfizzmaster@gmail.com</p>
+  </footer>
+</body>
+</html>

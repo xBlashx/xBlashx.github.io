@@ -1,0 +1,137 @@
+h1{
+    text-align: center;
+}
+
+html{
+    background-color:rgb(247, 247, 247);
+    line-height: 1.8;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.ugras a
+{
+    position:absolute;
+    left:-9999px;
+}
+
+.ugras a:focus
+{
+    position:static;
+    color:rgb(16, 30, 230);
+}
+
+.menu{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:rgb(175, 184, 196);
+}
+.menu a{
+    padding: 4px 8px;
+    font-size: 1em;
+}
+.menu a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menu a:hover{
+    background-color: rgb(30, 182, 228);
+}
+
+#current{
+    background-color: rgb(70, 228, 30);;
+}
+
+body{
+    text-align: justify;
+}
+
+.menuketto{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    background-color:rgb(175, 184, 196);
+}
+.menuketto a{
+    padding: 4px 8px;
+    font-size: 1em;
+}
+.menuketto a.active{
+    background-color: #f1ebd2;
+    color: black;
+}
+.menuketto a:hover{
+    background-color: rgb(30, 182, 228);
+}
+
+#nagy{
+    background-color: rgb(70, 228, 30);
+}
+
+.doomregi{
+    width:384px;
+    height:216px; 
+    float:right;
+    padding-left: 20px;
+}
+
+.doomuj{
+    width:384px;
+    height:216px;
+    float:right;
+    padding-left: 20px;
+}
+
+.doommenu{
+    width:384px;
+    height:216px; 
+    float:right;
+}
+
+.ammokepek img{
+    width:113.5px;
+    height:119.5px;
+}
+
+.mancubus{
+    width:741.6px;
+    height:417.15px;
+    float:right;
+}
+
+.pentagram{
+    width:741.6px;
+    height:417.15px;
+    float:left;
+}
+
+@media print{
+    body{
+        margin:0;
+        color: black;
+        width: 90%;
+        float:none;
+        line-height: 1.5;
+        text-align: justify;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menuketto{
+        display: none;
+    }
+
+    a:after{content: "(" attr(href) ")";}
+
+    .footer{
+        display:none;
+    }
+}
